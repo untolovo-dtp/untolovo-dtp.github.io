@@ -1,0 +1,17 @@
+exclude: [tools]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      base-url: "/"
+
+  -
+    scope:
+      path: "robots.txt"
+    values:
+      layout: "none"
+
+
