@@ -35,6 +35,13 @@ active
 active
 {% endif %}
 " href="/discussion/">Обсуждение</a>
+
+        <a class="dropdown-item
+{% if page.url == "/proposals/" %}
+active
+{% endif %}
+" href="/proposals/">Предложения</a>
+
         <a class="dropdown-item
 {% if page.url == "/about/" %}
 active
@@ -63,6 +70,13 @@ active
 active
 {% endif %}
 " href="/discussion/">Обсуждение</a>
+  </li>
+  <li class="nav-item d-none d-sm-block">
+    <a class="nav-link text-info
+{% if page.url == "/proposals/" %}
+active
+{% endif %}
+" href="/proposals/">Предложения</a>
   </li>
   <li class="nav-item d-none d-sm-block">
     <a class="nav-link text-info
