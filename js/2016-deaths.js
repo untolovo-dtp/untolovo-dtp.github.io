@@ -6,7 +6,7 @@
                     center: [60.023284,30.235214],
                     zoom: 13,
                 controls: ['zoomControl']
-                }),
+                },{suppressMapOpenBlock: true}),
                 
         // Создадим собственный макет выпадающего списка.
                 ListBoxLayout = ymaps.templateLayoutFactory.createClass(
@@ -476,7 +476,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.0256","30.2283"],"type":"Point"},"id":"190613341","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Наезд на препятствие<br>Один погибший<br>","balloonContentHeader":"07.01.2016, 03:25","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0211","30.2636"],"type":"Point"},"id":"191057733","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"02.02.2016, 20:58","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.015","30.2453"],"type":"Point"},"id":"201344345","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28.10.2016, 07:45","iconContent":1},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.0256","30.2283"],"type":"Point"},"id":"190613341","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на препятствие<br>Один погибший<br>","balloonContentHeader":"7 января 2016, 03:25","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0211","30.2636"],"type":"Point"},"id":"191057733","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"2 февраля 2016, 20:58","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.015","30.2453"],"type":"Point"},"id":"201344345","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28 октября 2016, 07:45","iconContent":1},"type":"Feature"}]
      
 
             }

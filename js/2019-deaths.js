@@ -6,7 +6,7 @@
                     center: [60.023284,30.235214],
                     zoom: 13,
                 controls: ['zoomControl']
-                }),
+                },{suppressMapOpenBlock: true}),
                 
         // Создадим собственный макет выпадающего списка.
                 ListBoxLayout = ymaps.templateLayoutFactory.createClass(
@@ -476,7 +476,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.017376","30.228667"],"type":"Point"},"id":"220086377","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"30.09.2019, 20:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.017564","30.237679"],"type":"Point"},"id":"220093517","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"10.11.2019, 18:15","iconContent":1},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.017376","30.228667"],"type":"Point"},"id":"220086377","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"30 сентября 2019, 20:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.017564","30.237679"],"type":"Point"},"id":"220093517","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"10 декабря 2019, 18:15","iconContent":1},"type":"Feature"}]
      
 
             }

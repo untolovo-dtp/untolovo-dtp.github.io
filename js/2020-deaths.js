@@ -6,7 +6,7 @@
                     center: [60.023284,30.235214],
                     zoom: 13,
                 controls: ['zoomControl']
-                }),
+                },{suppressMapOpenBlock: true}),
                 
         // Создадим собственный макет выпадающего списка.
                 ListBoxLayout = ymaps.templateLayoutFactory.createClass(
@@ -476,7 +476,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.029411","30.254298"],"type":"Point"},"id":"221088232","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28.11.2020, 16:56","iconContent":1},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.029411","30.254298"],"type":"Point"},"id":"221088232","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28 декабря 2020, 16:56","iconContent":1},"type":"Feature"}]
      
 
             }
