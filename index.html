@@ -118,6 +118,7 @@ title: Статистика • ДТП МО Юнтолово в 2016-2020
     <tr><td>23</td><td>4</td><td>6</td></tr>
 
 </table>
+
 <h3 class="h5">Число ДТП в течение года</h2>
 
 <table class="table table-sm table-bordered" style="width: auto !important;">
@@ -143,6 +144,48 @@ title: Статистика • ДТП МО Юнтолово в 2016-2020
     <tr><td>Ноябрь</td><td class="table-danger">22</td><td>22</td></tr>
     <tr><td>Декабрь</td><td class="table-danger">13</td><td>17</td></tr>
 </table>
+
+<div class="ct-chart ct-golden-section" id="chart2"></div>
+<style>
+    .ct-series-b .ct-bar {
+      /* Set the colour of this series line */
+      stroke: blue;
+    }
+    </style>
+<script>
+    var data = {
+      labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+        series: [
+        [17, 15, 15, 8, 11, 9, 6, 6, 14, 19, 22, 13],
+        [11, 12, 22, 15, 15, 27, 13, 30, 28, 19, 22, 17]
+      ]
+    };
+
+    var options = {
+      seriesBarDistance: 15
+    };
+
+    var responsiveOptions = [
+      ['screen and (min-width: 641px) and (max-width: 1024px)', {
+        seriesBarDistance: 10,
+        axisX: {
+          labelInterpolationFnc: function (value) {
+            return value;
+          }
+        }
+      }],
+      ['screen and (max-width: 640px)', {
+        seriesBarDistance: 5,
+        axisX: {
+          labelInterpolationFnc: function (value) {
+            return value[0];
+          }
+        }
+      }]
+    ];
+
+    new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
+</script>
 
 <h3 class="h5">Бюджет МО Юнтолово, профилактика дорожно-транспортного травматизма</h2>
 
