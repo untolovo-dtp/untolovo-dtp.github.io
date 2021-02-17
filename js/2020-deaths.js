@@ -83,6 +83,7 @@
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+
 "    <a class='dropdown-item' href='/2020/'>Все ДТП</a>"+
+"    <a class='dropdown-item' href='/2020/children/'>Все ДТП с детьми до 16 лет</a>"+
 "    <a class='dropdown-item' href='/2020/deaths/'>С погибшими</a>"+
 "    <a class='dropdown-item' href='/2020/townsfolks/'>С пострадавшими пешеходами</a>"+
 "    <a class='dropdown-item' href='/2020/motorists/'>С пострадавшими без пешеходов</a>"+
@@ -476,7 +477,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.029411","30.254298"],"type":"Point"},"id":"221088232","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28 декабря 2020, 16:56","iconContent":1},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.025503","30.259212"],"type":"Point"},"id":"221088232","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28 декабря 2020, 16:56","iconContent":1},"type":"Feature"}]
      
 
             }

@@ -14,15 +14,15 @@
 
 "<div class='dropdown mb-1'>"+
 "  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
-"    2017"+
+"    2018"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink'>"+
-"    <a class='dropdown-item' href='/2016-2020/deaths/'>2016–2020</a>"+
-"    <a class='dropdown-item' href='/2016/deaths/'>2016</a>"+
-"    <a class='dropdown-item' href='/2017/deaths/'>2017</a>"+
-"    <a class='dropdown-item' href='/2018/deaths/'>2018</a>"+
-"    <a class='dropdown-item' href='/2019/deaths/'>2019</a>"+
-"    <a class='dropdown-item' href='/2020/deaths/'>2020</a>"+
+"    <a class='dropdown-item' href='/2016-2020/children/'>2016–2020</a>"+
+"    <a class='dropdown-item' href='/2016/children/'>2016</a>"+
+"    <a class='dropdown-item' href='/2017/children/'>2017</a>"+
+"    <a class='dropdown-item' href='/2018/children/'>2018</a>"+
+"    <a class='dropdown-item' href='/2019/children/'>2019</a>"+
+"    <a class='dropdown-item' href='/2020/children/'>2020</a>"+
 "  </div>"+
 "</div>"
 
@@ -79,14 +79,14 @@
 
 "<div class='dropdown'>"+
 "  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink1' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
-"    С погибшими"+
+"    Все ДТП с детьми до 16 лет"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+
-"    <a class='dropdown-item' href='/2017/'>Все ДТП</a>"+
-"    <a class='dropdown-item' href='/2017/children/'>Все ДТП с детьми до 16 лет</a>"+
-"    <a class='dropdown-item' href='/2017/deaths/'>С погибшими</a>"+
-"    <a class='dropdown-item' href='/2017/townsfolks/'>С пострадавшими пешеходами</a>"+
-"    <a class='dropdown-item' href='/2017/motorists/'>С пострадавшими без пешеходов</a>"+
+"    <a class='dropdown-item' href='/2018/'>Все ДТП</a>"+
+"    <a class='dropdown-item' href='/2018/children/'>Все ДТП с детьми до 16 лет</a>"+
+"    <a class='dropdown-item' href='/2018/deaths/'>С погибшими</a>"+
+"    <a class='dropdown-item' href='/2018/townsfolks/'>С пострадавшими пешеходами</a>"+
+"    <a class='dropdown-item' href='/2018/motorists/'>С пострадавшими без пешеходов</a>"+
 "  </div>"+
 "</div>"
 
@@ -477,7 +477,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.0214","30.2622"],"type":"Point"},"id":"204105507","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один погибший<br>","balloonContentHeader":"5 марта 2017, 09:00","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.025333","30.238781"],"type":"Point"},"id":"206111337","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"6 августа 2017, 23:35","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0208","30.2431"],"type":"Point"},"id":"206811763","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"15 сентября 2017, 22:16","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0267","30.2447"],"type":"Point"},"id":"207486577","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"1 декабря 2017, 07:40","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0239","30.2769"],"type":"Point"},"id":"207802050","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Двое погибших<br>","balloonContentHeader":"27 декабря 2017, 09:40","iconContent":2},"type":"Feature"},{"geometry":{"coordinates":["60.0319","30.2514"],"type":"Point"},"id":"207844187","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>Один пострадавший<br>","balloonContentHeader":"25 декабря 2017, 19:52","iconContent":2},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.0203","30.2619"],"type":"Point"},"id":"209139794","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на стоящее ТС<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"14 марта 2018, 18:50","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0175","30.2378"],"type":"Point"},"id":"209424439","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"4 мая 2018, 16:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0203","30.2683"],"type":"Point"},"id":"209614706","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"30 мая 2018, 19:50","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0208","30.2639"],"type":"Point"},"id":"210282518","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Двое пострадавших<br>Среди них по крайней мере один ребёнок до 16 лет<br>","balloonContentHeader":"13 июля 2018, 18:40","iconContent":2},"type":"Feature"},{"geometry":{"coordinates":["60.032573","30.250854"],"type":"Point"},"id":"210652431","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"17 августа 2018, 11:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0208","30.2539"],"type":"Point"},"id":"210626582","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"15 августа 2018, 18:10","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.019076","30.256798"],"type":"Point"},"id":"213604584","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"8 декабря 2018, 00:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.025927","30.248237"],"type":"Point"},"id":"213865036","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"22 декабря 2018, 12:05","iconContent":1},"type":"Feature"}]
      
 
             }

@@ -14,15 +14,15 @@
 
 "<div class='dropdown mb-1'>"+
 "  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
-"    2017"+
+"    2019"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink'>"+
-"    <a class='dropdown-item' href='/2016-2020/deaths/'>2016–2020</a>"+
-"    <a class='dropdown-item' href='/2016/deaths/'>2016</a>"+
-"    <a class='dropdown-item' href='/2017/deaths/'>2017</a>"+
-"    <a class='dropdown-item' href='/2018/deaths/'>2018</a>"+
-"    <a class='dropdown-item' href='/2019/deaths/'>2019</a>"+
-"    <a class='dropdown-item' href='/2020/deaths/'>2020</a>"+
+"    <a class='dropdown-item' href='/2016-2020/children/'>2016–2020</a>"+
+"    <a class='dropdown-item' href='/2016/children/'>2016</a>"+
+"    <a class='dropdown-item' href='/2017/children/'>2017</a>"+
+"    <a class='dropdown-item' href='/2018/children/'>2018</a>"+
+"    <a class='dropdown-item' href='/2019/children/'>2019</a>"+
+"    <a class='dropdown-item' href='/2020/children/'>2020</a>"+
 "  </div>"+
 "</div>"
 
@@ -79,14 +79,14 @@
 
 "<div class='dropdown'>"+
 "  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink1' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
-"    С погибшими"+
+"    Все ДТП с детьми до 16 лет"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+
-"    <a class='dropdown-item' href='/2017/'>Все ДТП</a>"+
-"    <a class='dropdown-item' href='/2017/children/'>Все ДТП с детьми до 16 лет</a>"+
-"    <a class='dropdown-item' href='/2017/deaths/'>С погибшими</a>"+
-"    <a class='dropdown-item' href='/2017/townsfolks/'>С пострадавшими пешеходами</a>"+
-"    <a class='dropdown-item' href='/2017/motorists/'>С пострадавшими без пешеходов</a>"+
+"    <a class='dropdown-item' href='/2019/'>Все ДТП</a>"+
+"    <a class='dropdown-item' href='/2019/children/'>Все ДТП с детьми до 16 лет</a>"+
+"    <a class='dropdown-item' href='/2019/deaths/'>С погибшими</a>"+
+"    <a class='dropdown-item' href='/2019/townsfolks/'>С пострадавшими пешеходами</a>"+
+"    <a class='dropdown-item' href='/2019/motorists/'>С пострадавшими без пешеходов</a>"+
 "  </div>"+
 "</div>"
 
@@ -477,7 +477,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.0214","30.2622"],"type":"Point"},"id":"204105507","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один погибший<br>","balloonContentHeader":"5 марта 2017, 09:00","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.025333","30.238781"],"type":"Point"},"id":"206111337","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"6 августа 2017, 23:35","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0208","30.2431"],"type":"Point"},"id":"206811763","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"15 сентября 2017, 22:16","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0267","30.2447"],"type":"Point"},"id":"207486577","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"1 декабря 2017, 07:40","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0239","30.2769"],"type":"Point"},"id":"207802050","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Двое погибших<br>","balloonContentHeader":"27 декабря 2017, 09:40","iconContent":2},"type":"Feature"},{"geometry":{"coordinates":["60.0319","30.2514"],"type":"Point"},"id":"207844187","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>Один пострадавший<br>","balloonContentHeader":"25 декабря 2017, 19:52","iconContent":2},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.017231","30.228388"],"type":"Point"},"id":"214638058","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"6 января 2019, 18:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.017505","30.228099"],"type":"Point"},"id":"216819392","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Двое пострадавших<br>Среди них по крайней мере один ребёнок до 16 лет<br>","balloonContentHeader":"12 марта 2019, 18:30","iconContent":2},"type":"Feature"},{"geometry":{"coordinates":["60.013274","30.237851"],"type":"Point"},"id":"216797025","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"11 марта 2019, 19:35","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.026399","30.274791"],"type":"Point"},"id":"217622530","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на препятствие<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"31 марта 2019, 20:30","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.027513","30.22223"],"type":"Point"},"id":"217483046","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"27 марта 2019, 12:52","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0164","30.2489"],"type":"Point"},"id":"218241191","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"11 мая 2019, 19:12","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.023236","30.282161"],"type":"Point"},"id":"219544354","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"6 июня 2019, 15:40","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.024662","30.239857"],"type":"Point"},"id":"219545847","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"21 июня 2019, 15:30","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.020716","30.264416"],"type":"Point"},"id":"219937537","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"27 августа 2019, 21:15","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.026956","30.224419"],"type":"Point"},"id":"220016330","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"8 сентября 2019, 19:00","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.026018","30.2268"],"type":"Point"},"id":"219977960","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"2 сентября 2019, 15:10","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.026243","30.245404"],"type":"Point"},"id":"219977550","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"1 сентября 2019, 18:40","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.023365","30.241038"],"type":"Point"},"id":"220085961","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"28 сентября 2019, 18:38","iconContent":1},"type":"Feature"}]
      
 
             }

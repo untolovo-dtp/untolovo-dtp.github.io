@@ -83,6 +83,7 @@
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+
 "    <a class='dropdown-item' href='/2019/'>Все ДТП</a>"+
+"    <a class='dropdown-item' href='/2019/children/'>Все ДТП с детьми до 16 лет</a>"+
 "    <a class='dropdown-item' href='/2019/deaths/'>С погибшими</a>"+
 "    <a class='dropdown-item' href='/2019/townsfolks/'>С пострадавшими пешеходами</a>"+
 "    <a class='dropdown-item' href='/2019/motorists/'>С пострадавшими без пешеходов</a>"+

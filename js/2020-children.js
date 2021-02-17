@@ -14,15 +14,15 @@
 
 "<div class='dropdown mb-1'>"+
 "  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
-"    2017"+
+"    2020"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink'>"+
-"    <a class='dropdown-item' href='/2016-2020/deaths/'>2016–2020</a>"+
-"    <a class='dropdown-item' href='/2016/deaths/'>2016</a>"+
-"    <a class='dropdown-item' href='/2017/deaths/'>2017</a>"+
-"    <a class='dropdown-item' href='/2018/deaths/'>2018</a>"+
-"    <a class='dropdown-item' href='/2019/deaths/'>2019</a>"+
-"    <a class='dropdown-item' href='/2020/deaths/'>2020</a>"+
+"    <a class='dropdown-item' href='/2016-2020/children/'>2016–2020</a>"+
+"    <a class='dropdown-item' href='/2016/children/'>2016</a>"+
+"    <a class='dropdown-item' href='/2017/children/'>2017</a>"+
+"    <a class='dropdown-item' href='/2018/children/'>2018</a>"+
+"    <a class='dropdown-item' href='/2019/children/'>2019</a>"+
+"    <a class='dropdown-item' href='/2020/children/'>2020</a>"+
 "  </div>"+
 "</div>"
 
@@ -79,14 +79,14 @@
 
 "<div class='dropdown'>"+
 "  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink1' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
-"    С погибшими"+
+"    Все ДТП с детьми до 16 лет"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+
-"    <a class='dropdown-item' href='/2017/'>Все ДТП</a>"+
-"    <a class='dropdown-item' href='/2017/children/'>Все ДТП с детьми до 16 лет</a>"+
-"    <a class='dropdown-item' href='/2017/deaths/'>С погибшими</a>"+
-"    <a class='dropdown-item' href='/2017/townsfolks/'>С пострадавшими пешеходами</a>"+
-"    <a class='dropdown-item' href='/2017/motorists/'>С пострадавшими без пешеходов</a>"+
+"    <a class='dropdown-item' href='/2020/'>Все ДТП</a>"+
+"    <a class='dropdown-item' href='/2020/children/'>Все ДТП с детьми до 16 лет</a>"+
+"    <a class='dropdown-item' href='/2020/deaths/'>С погибшими</a>"+
+"    <a class='dropdown-item' href='/2020/townsfolks/'>С пострадавшими пешеходами</a>"+
+"    <a class='dropdown-item' href='/2020/motorists/'>С пострадавшими без пешеходов</a>"+
 "  </div>"+
 "</div>"
 
@@ -477,7 +477,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.0214","30.2622"],"type":"Point"},"id":"204105507","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на велосипедиста<br>Один погибший<br>","balloonContentHeader":"5 марта 2017, 09:00","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.025333","30.238781"],"type":"Point"},"id":"206111337","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"6 августа 2017, 23:35","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0208","30.2431"],"type":"Point"},"id":"206811763","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"15 сентября 2017, 22:16","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0267","30.2447"],"type":"Point"},"id":"207486577","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"1 декабря 2017, 07:40","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0239","30.2769"],"type":"Point"},"id":"207802050","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Двое погибших<br>","balloonContentHeader":"27 декабря 2017, 09:40","iconContent":2},"type":"Feature"},{"geometry":{"coordinates":["60.0319","30.2514"],"type":"Point"},"id":"207844187","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>Один пострадавший<br>","balloonContentHeader":"25 декабря 2017, 19:52","iconContent":2},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.023423","30.219119"],"type":"Point"},"id":"220381467","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"22 февраля 2020, 19:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.022839","30.241692"],"type":"Point"},"id":"220392695","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Двое пострадавших<br>Среди них по крайней мере один ребёнок до 16 лет<br>","balloonContentHeader":"9 марта 2020, 19:20","iconContent":2},"type":"Feature"},{"geometry":{"coordinates":["60.018926","30.257227"],"type":"Point"},"id":"220892113","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"10 сентября 2020, 17:20","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.02583","30.238184"],"type":"Point"},"id":"220877351","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"6 сентября 2020, 13:10","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.016631","30.244439"],"type":"Point"},"id":"220934015","options":{"preset":"islands#orangeIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один пострадавший — ребёнок до 16 лет<br>","balloonContentHeader":"27 сентября 2020, 21:10","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.025262","30.238881"],"type":"Point"},"id":"220980775","options":{"preset":"islands#yellowIcon"},"properties":{"balloonContentBody":"Тип ДТП: Столкновение<br>Трое пострадавших<br>Среди них по крайней мере один ребёнок до 16 лет<br>","balloonContentHeader":"7 октября 2020, 07:40","iconContent":3},"type":"Feature"}]
      
 
             }

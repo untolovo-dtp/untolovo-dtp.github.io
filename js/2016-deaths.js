@@ -83,6 +83,7 @@
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+
 "    <a class='dropdown-item' href='/2016/'>Все ДТП</a>"+
+"    <a class='dropdown-item' href='/2016/children/'>Все ДТП с детьми до 16 лет</a>"+
 "    <a class='dropdown-item' href='/2016/deaths/'>С погибшими</a>"+
 "    <a class='dropdown-item' href='/2016/townsfolks/'>С пострадавшими пешеходами</a>"+
 "    <a class='dropdown-item' href='/2016/motorists/'>С пострадавшими без пешеходов</a>"+
@@ -476,7 +477,7 @@
                 "type": "FeatureCollection",
                 "features":
 
-[{"geometry":{"coordinates":["60.0256","30.2283"],"type":"Point"},"id":"190613341","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на препятствие<br>Один погибший<br>","balloonContentHeader":"7 января 2016, 03:25","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0211","30.2636"],"type":"Point"},"id":"191057733","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"2 февраля 2016, 20:58","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.015","30.2453"],"type":"Point"},"id":"201344345","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"28 октября 2016, 07:45","iconContent":1},"type":"Feature"}]
+[{"geometry":{"coordinates":["60.0256","30.2283"],"type":"Point"},"id":"190613341","options":{"preset":"islands#pinkIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на препятствие<br>Один погибший<br>","balloonContentHeader":"7 января 2016, 03:25","iconContent":1},"type":"Feature"},{"geometry":{"coordinates":["60.0211","30.2636"],"type":"Point"},"id":"191057733","options":{"preset":"islands#redIcon"},"properties":{"balloonContentBody":"Тип ДТП: Наезд на пешехода<br>Один погибший<br>","balloonContentHeader":"2 февраля 2016, 20:58","iconContent":1},"type":"Feature"}]
      
 
             }
