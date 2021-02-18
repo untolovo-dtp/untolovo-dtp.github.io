@@ -13,7 +13,7 @@
 
 
 "<div class='dropdown mb-1'>"+
-"  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
+"  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-bs-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
 "    2018"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink'>"+
@@ -78,7 +78,7 @@
                     ListBoxLayout1 = ymaps.templateLayoutFactory.createClass(
 
 "<div class='dropdown'>"+
-"  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink1' data-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
+"  <a class='btn btn-light btn-sm border dropdown-toggle' href='#' role='button' id='dropdownMenuLink1' data-bs-toggle='dropdown' aria-haspopup='true'  aria-expanded='false'>"+
 "    Все ДТП"+
 "  </a>"+
 "  <div class='dropdown-menu' aria-labelledby='dropdownMenuLink1'>"+

@@ -21,8 +21,8 @@ foreach my $year (qw(2016-2020 2016 2017 2018 2019 2020)) {
         my $data =<<"EOF";
 ---
 title: $page_title
+layout: map
 ---
-{% include map.html %}
 <script src="/js/$js.js" type="text/javascript"></script>
 
 EOF
