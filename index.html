@@ -2,64 +2,97 @@
 title: Статистика • ДТП МО Юнтолово в 2016-2020
 ---
 
+<!-- https://getbootstrap.com/docs/5.0/examples/blog/ -->
+<h1 class="blog-post-title">Статистика</h2>
 
-    
-<h1 class="h3">Статистика</h1>    
 
-<h2 class="h4">Данные</h2>
+<h2>Типы ДТП и их количество</h2>
 
 <table class="table table-sm table-bordered" style="width: auto !important;">
     <tr>
-      <th scope="col" rowspan="2">Год</th>
+      <th scope="col" style="width: 60%">Тип ДТП</th>
+      <th scope="col" style="width: 20%">Всего ДТП</th>
+      <th scope="col" style="width: 20%">ДТП с детьми</th>
+    </tr>
+    
+<tr><td>Наезд на пешехода</td><td class="text-danger">152</td><td class="text-danger">23</td></tr>
+<tr><td>Наезд на велосипедиста</td><td class="text-danger">42</td><td class="text-danger">9</td></tr>
+<tr><td>Падение пассажира</td><td class="text-warning">19</td><td>—</td></tr>
+<tr><td>Столкновение</td><td>145</td><td>11</td></tr>
+<tr><td>Наезд на стоящее ТС</td><td>14</td><td>1</td></tr>
+<tr><td>Наезд на препятствие</td><td>7</td><td>1</td></tr>
+<tr><td>Опрокидывание</td><td>2</td><td>—</td></tr>
+<tr><td>Отбрасывание предмета</td><td>1</td><td>—</td></tr>
+<tr><td>Съезд с дороги</td><td>1</td><td>1</td></tr>
+<tr><td>Наезд на лицо, не являющееся участником дорожного движения, осуществляющее несение службы</td><td>1</td><td>—</td></tr>
+</table>
+
+<p>Обратите внимание на такие ДТП как наезд на пешехода, наезд на велосипедиста и падение пассажира.
+    Пешеходы, велосипедисты и пассажиры скорее всего либо являются жителями Юнтолово, либо тесно связаны с
+    территорией этого муниципального образования.</p>
+<p><a href="/2020/">На карте</a> ДТП с пешеходами и велосипедистами отмечены оранжевыми метками и отнесены
+    к группе «ДТП с пострадавшими пешеходами».
+<p>Далее статистика ДТП собрана, отдельно учитывая эту группу — под пешеходами понимаются и пешеходы, и велосипедисты.<p>
+    
+<p>ДТП с паденими пассажиров <a href="/2020/">на карте</a> отмечены фиолетовыми метками.</p>
+
+
+
+<h2>Погибшие и пострадавшие</h2>
+
+<div class="table-responsive">
+<table class="table table-sm table-bordered" style="width: auto !important;">
+    <tr>
+      <th scope="col" rowspan="2" style="width: 25%">Год</th>
       <th scope="col" colspan="3">Число погибших в ДТП</th>
     </tr>
     <tr>
-      <th scope="col">с пешеходами</th>
-      <th scope="col">без пешеходов</th>
-      <th scope="col">всего</th>
+      <th scope="col" style="width: 25%">с пешеходами</th>
+      <th scope="col" style="width: 25%">без пешеходов</th>
+      <th scope="col" style="width: 25%">всего</th>
     </tr>
 
-    <tr><td>2016</td><td>2</td><td>1</td><td>3</td></tr>
-    <tr><td>2017</td><td>4</td><td>3</td><td>7</td></tr>
+    <tr><td>2016</td><td>1</td><td>1</td><td>2</td></tr>
+    <tr><td>2017</td><td>5</td><td>2</td><td>7</td></tr>
     <tr><td>2018</td><td>1</td><td>0</td><td>1</td></tr>
     <tr><td>2019</td><td>2</td><td>0</td><td>2</td></tr>
     <tr><td>2020</td><td>1</td><td>0</td><td>1</td></tr>
 
-    <tr><td>Всего</td><td>10</td><td>4</td><td>14</td></tr>
+    <tr><td>Всего</td><td>10</td><td>3</td><td>13</td></tr>
 
 </table>
-
+</div>
 
 <table class="table table-sm table-bordered" style="width: auto !important;">
     <tr>
-      <th scope="col" rowspan="2">Год</th>
+      <th scope="col" rowspan="2" style="width: 25%">Год</th>
       <th scope="col" colspan="3">Число пострадавших в ДТП</th>
     </tr>
     <tr>
-      <th scope="col">с пешеходами</th>
-      <th scope="col">без пешеходов</th>
-      <th scope="col">всего</th>
+      <th scope="col" style="width: 25%">с пешеходами</th>
+      <th scope="col" style="width: 25%">без пешеходов</th>
+      <th scope="col" style="width: 25%">всего</th>
       
     </tr>
 
-    <tr><td>2016</td><td>26</td><td>65</td><td>91</td></tr>
-    <tr><td>2017</td><td>39</td><td>58</td><td>97</td></tr>
-    <tr><td>2018</td><td>32</td><td>72</td><td>104</td></tr>
-    <tr><td>2019</td><td>35</td><td>49</td><td>84</td></tr>
-    <tr><td>2020</td><td>21</td><td>53</td><td>74</td></tr>
+    <tr><td>2016</td><td>32</td><td>61</td><td>93</td></tr>
+    <tr><td>2017</td><td>43</td><td>48</td><td>91</td></tr>
+    <tr><td>2018</td><td>39</td><td>64</td><td>103</td></tr>
+    <tr><td>2019</td><td>43</td><td>41</td><td>84</td></tr>
+    <tr><td>2020</td><td>38</td><td>39</td><td>77</td></tr>
 
-    <tr><td>Всего</td><td>153</td><td>297</td><td>450</td></tr>
+    <tr><td>Всего</td><td>195</td><td>253</td><td>448</td></tr>
 
 </table>
 
-<h4 class="h6">Число пострадавших в ДТП с пешеходами</h2>
+<h3>Число пострадавших в ДТП с пешеходами</h3>
 
 <div class="ct-chart7 ct-golden-section" id="chart3" style="max-width: 600px"></div>
 <script>
     var data = {
       labels: ['2016', '2017', '2018', '2019', '2020'],
         series: [
-        [26,39,32,35,21]
+        [32,43,39,43,38]
       ]
     };
 
@@ -89,14 +122,14 @@ title: Статистика • ДТП МО Юнтолово в 2016-2020
     new Chartist.Bar('.ct-chart7', data, options, responsiveOptions);
 </script>
 
-<h4 class="h6">Число пострадавших в ДТП без пешеходов</h2>
+<h3>Число пострадавших в ДТП без пешеходов</h3>
 
 <div class="ct-chart8 ct-golden-section" id="chart3" style="max-width: 600px"></div>
 <script>
     var data = {
       labels: ['2016', '2017', '2018', '2019', '2020'],
         series: [
-        [65,58,72,49,53]
+        [61,48,64,41,39]
       ]
     };
 
@@ -126,21 +159,21 @@ title: Статистика • ДТП МО Юнтолово в 2016-2020
     new Chartist.Bar('.ct-chart8', data, options, responsiveOptions);
 </script>
     
-<h3 class="h5">Всего ДТП</h2>
+<h2>Количество ДТП</h2>
 
 <table class="table table-sm table-bordered" style="width: auto !important;">
     <tr>
-      <th scope="col">Год</th>
-      <th scope="col">Число ДТП</th>
+      <th scope="col" style="width: 50%">Год</th>
+      <th scope="col" style="width: 50%">Количество ДТП</th>
     </tr>
 
     <tr><td>2016</td><td>75</td></tr>
-    <tr><td>2017</td><td>85</td></tr>
-    <tr><td>2018</td><td>87</td></tr>
+    <tr><td>2017</td><td>80</td></tr>
+    <tr><td>2018</td><td>86</td></tr>
     <tr><td>2019</td><td>76</td></tr>
-    <tr><td>2020</td><td>63</td></tr>
+    <tr><td>2020</td><td>67</td></tr>
 
-    <tr><td>Всего</td><td>386</td></tr>
+    <tr><td>Всего</td><td>384</td></tr>
 
 </table>
 
@@ -149,7 +182,7 @@ title: Статистика • ДТП МО Юнтолово в 2016-2020
     var data = {
       labels: ['2016', '2017', '2018', '2019', '2020'],
         series: [
-        [75,85,87,76,63]
+        [75,80,86,76,67]
       ]
     };
 
@@ -179,38 +212,22 @@ title: Статистика • ДТП МО Юнтолово в 2016-2020
     new Chartist.Bar('.ct-chart6', data, options, responsiveOptions);
 </script>
 
-<h3 class="h5">Число участников ДТП в состоянии алкогольного опьянения</h2>
+<h2>Число участников ДТП в состоянии алкогольного опьянения</h2>
 
 <table class="table table-sm table-bordered" style="width: auto !important;">
     <tr>
-      <th scope="col">Год</th>
-      <th scope="col">Число участников</th>
+      <th scope="col" style="width: 50%">Год</th>
+      <th scope="col" style="width: 50%">Число участников</th>
     </tr>
 
     <tr><td>2016</td><td>2</td></tr>
     <tr><td>2017</td><td>1</td></tr>
     <tr><td>2018</td><td>1</td></tr>
-    <tr><td>2019</td><td class="table-danger">4</td></tr>
-    <tr><td>2020</td><td class="table-danger">5</td></tr>
+    <tr><td>2019</td><td class="text-danger">4</td></tr>
+    <tr><td>2020</td><td class="text-danger">5</td></tr>
 </table>
 
-<h3 class="h5">Типы ДТП</h2>
 
-<table class="table table-sm table-bordered" style="width: auto !important;">
-    <tr>
-      <th scope="col">Тип ДТП</th>
-      <th scope="col">Число ДТП</th>
-    </tr>
-<tr><td>Наезд на велосипедиста</td><td class="table-danger">42</td></tr>
-<tr><td>Наезд на лицо, не являющееся участником дорожного движения, осуществляющее несение службы</td><td>1</td></tr>
-<tr><td>Наезд на пешехода</td><td class="table-danger">153</td></tr>
-<tr><td>Наезд на препятствие</td><td>8</td></tr>
-<tr><td>Наезд на стоящее ТС</td><td>14</td></tr>
-<tr><td>Опрокидывание</td><td>2</td></tr>
-<tr><td>Отбрасывание предмета</td><td>1</td></tr>
-<tr><td>Падение пассажира</td><td class="table-danger">18</td></tr>
-<tr><td>Столкновение</td><td>147</td></tr>
-</table>
 
 
 <h3 class="h5">Число ДТП в течение дня</h2>
