@@ -153,8 +153,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 </style>
-  </head>
-  <body
+{% if page.url == "/" %}
+<link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+{% endif %}
+</head>
+<body
 {% if page.url contains "/20" %}
 class="fixed-bottom fixed-top"
 {% endif %}>
